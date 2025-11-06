@@ -14,8 +14,9 @@
 /* default styles */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-	width: 80%;
+    font-size: calc(90% + 0.2vw);
+    line-height: 1.2;
+	width: 80%; max-width: 1024px;
 	margin: auto;
 	border: 2px solid var(--accent-color);
 }
@@ -24,7 +25,7 @@ a:hover, a:focus{
 	color: var(--accent-color);
 }
 h1, h2, h3, p, ul {
-	padding: .5em 0;
+	padding: .25em 0;
 }
 h1 {
 	font-size: 150%;
@@ -57,15 +58,20 @@ header {
 	& img {
 		float: left;
 		margin: .75em 1em;
+
 	}
+    &aside{
+        flex-basis: 25%;
+    }
+    &section{
+        flex-basis: 75%;
+    }
 }
 
 /* the styles for the main content */
 main {
 	padding: 0 1em 1em;
-	& h1 {
-		border-top: 2px solid var(--accent-color);
-		border-bottom: 2px solid var(--accent-color);
+    display: flex;
 	}
 	& blockquote {
 		font-style: italic;
@@ -74,8 +80,9 @@ main {
 	& img {
 		border: 4px double var(--accent-color);
 		border-radius: 10px;
+        float: right;
 	}
-}
+
 
 /* the styles for the footer */
 footer {
@@ -90,4 +97,9 @@ footer {
 /* CSS class */
 .large {
 	font-size: 125%;
+}
+
+.features {
+    border-top: 2px solid var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
 }
