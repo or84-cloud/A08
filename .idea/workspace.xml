@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="067cbc52-aa91-42ba-a5a1-3ac041335a61" name="Changes" comment="Feature: Initial Commit (Hopefully doesn't get caught in mumbo-jumbo (again))">
+    <list default="true" id="067cbc52-aa91-42ba-a5a1-3ac041335a61" name="Changes" comment="Feature: Added flexbox into CSS, need to change the padding for better visibility">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +78,8 @@
       <updated>1762458402548</updated>
       <workItem from="1762458403625" duration="426000" />
       <workItem from="1762459496452" duration="39000" />
-      <workItem from="1762459673670" duration="1833000" />
+      <workItem from="1762459673670" duration="1876000" />
+      <workItem from="1762875354646" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Initial Commit">
       <option name="closed" value="true" />
@@ -98,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762458815860</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Feature: Added flexbox into CSS, need to change the padding for better visibility">
+      <option name="closed" value="true" />
+      <created>1762461552487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762461552487</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feature: Initial Commit" />
     <MESSAGE value="Feature: Initial Commit (Hopefully doesn't get caught in mumbo-jumbo (again))" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: Initial Commit (Hopefully doesn't get caught in mumbo-jumbo (again))" />
+    <MESSAGE value="Feature: Added flexbox into CSS, need to change the padding for better visibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: Added flexbox into CSS, need to change the padding for better visibility" />
   </component>
 </project>
