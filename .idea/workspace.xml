@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="067cbc52-aa91-42ba-a5a1-3ac041335a61" name="Changes" comment="Feature: img now floats to the right now need borders around speaker img's">
+    <list default="true" id="067cbc52-aa91-42ba-a5a1-3ac041335a61" name="Changes" comment="Feature: Last commit (i think)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
@@ -84,7 +84,7 @@
       <workItem from="1762875354646" duration="10000" />
       <workItem from="1762875588303" duration="1706000" />
       <workItem from="1762911810920" duration="10547000" />
-      <workItem from="1762957330834" duration="5021000" />
+      <workItem from="1762957330834" duration="6590000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Initial Commit">
       <option name="closed" value="true" />
@@ -142,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762958521456</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Feature: Last commit (i think)">
+      <option name="closed" value="true" />
+      <created>1762962573008</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762962573009</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +164,7 @@
     <MESSAGE value="Feature: can't separate the article from the speakers (ugh)" />
     <MESSAGE value="Feature: added borders around the article, now need to separate the sections and make img float right" />
     <MESSAGE value="Feature: img now floats to the right now need borders around speaker img's" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: img now floats to the right now need borders around speaker img's" />
+    <MESSAGE value="Feature: Last commit (i think)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: Last commit (i think)" />
   </component>
 </project>

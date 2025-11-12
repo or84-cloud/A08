@@ -78,52 +78,53 @@ main {
     & section {
         flex-basis: 75%;
         padding: 1em 1em 1em 1em;
+
         & img {
             float: right;
             width: clamp(100px, 100%, 250px);
             margin: 0.75em 1em;
         }
-
+    }
         & aside {
             flex-basis: 25%;
-            padding: 1em 100em 1em 1em;
+            padding: 1em 1em 1em 1em;
 
             & img {
                 width: 100%;
                 min-width: 40px;
                 max-width: 75px;
-                border: 4px solid var(--accent-color);
-                border-radius: 50%;
-
+                border-radius: 10%;
+                border: 2px solid var(--accent-color);
             }
         }
-        & blockquote {
-            font-style: italic;
-            padding-left: 1em;
+
+   &blockquote{
+       font-style: italic;
+       padding-left: 1em;
+   }
+
+    /* the styles for the footer */
+
+    footer {
+        background-color: var(--accent-color);
+
+        & p {
+            text-align: center;
+            color: white;
+            padding: 1em 0;
         }
-
     }
-}
 
+    /* CSS class */
 
-/* the styles for the footer */
-footer {
-	background-color: var(--accent-color);
-	& p {
-		text-align: center;
-		color: white;
-		padding: 1em 0;
-	}
-}
+    .large {
+        font-size: 125%;
+    }
 
-/* CSS class */
-.large {
-	font-size: 125%;
-}
-
-article.featured {
-    border-top: 4px solid  var(--accent-color);
-    border-bottom: 4px solid  var(--accent-color);
-    padding: 1em 0;
-    margin: 1em 0;
+    article.featured {
+        border-top: 4px solid var(--accent-color);
+        border-bottom: 4px solid var(--accent-color);
+        padding: 1em 0;
+        margin: 1em 0;
+    }
 }
