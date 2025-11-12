@@ -19,16 +19,18 @@ body {
 	width: 80%; max-width: 1024px;
 	margin: auto;
 	border: 2px solid var(--accent-color);
+
 }
 a:hover, a:focus{
 	font-style: italic;
 	color: var(--accent-color);
 }
 h1, h2, h3, p, ul {
-	padding: .25em 0;
+    padding: .25em 0;
 }
-h1 {
+h1{
 	font-size: 150%;
+    border-top: 2px solid var(--accent-color);
 }
 h2 {
 	font-size: 130%;
@@ -46,6 +48,14 @@ header {
 	border-bottom: 2px solid var(--accent-color);
 	background-image: linear-gradient(
 	    30deg, var(--gradient-color) 0%, white 30%, white 65%, var(--gradient-color) 100%);
+    &aside{
+        flex-basis: 25%;
+        padding: 0 1em;
+    }
+    &section {
+        flex-basis: 25%;
+        padding: 0 1em;
+    }
 	& h2 {
 		font-size: 175%;
 		padding: .5em 0 0 0;
@@ -56,15 +66,8 @@ header {
 		padding-bottom: 1em;
 	}
 	& img {
-		float: left;
-		margin: .75em 1em;
-
-	}
-    &aside{
-        flex-basis: 25%;
-    }
-    &section{
-        flex-basis: 75%;
+        float: left;
+        margin: .75em 1em;
     }
 }
 
@@ -72,7 +75,7 @@ header {
 main {
 	padding: 0 1em 1em;
     display: flex;
-	}
+    }
 	& blockquote {
 		font-style: italic;
 		padding-left: 1em;
@@ -99,7 +102,7 @@ footer {
 	font-size: 125%;
 }
 
-.features {
+article.features {
     border-top: 2px solid var(--accent-color);
     border-bottom: 2px solid var(--accent-color);
 }
