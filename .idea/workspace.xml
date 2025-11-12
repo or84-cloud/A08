@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="067cbc52-aa91-42ba-a5a1-3ac041335a61" name="Changes" comment="Feature: Initial Commit (making sure everything is okay)">
+    <list default="true" id="067cbc52-aa91-42ba-a5a1-3ac041335a61" name="Changes" comment="Feature: can't separate the article from the speakers (ugh)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +83,7 @@
       <workItem from="1762459673670" duration="1876000" />
       <workItem from="1762875354646" duration="10000" />
       <workItem from="1762875588303" duration="1706000" />
-      <workItem from="1762911810920" duration="3273000" />
+      <workItem from="1762911810920" duration="10491000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Initial Commit">
       <option name="closed" value="true" />
@@ -118,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762875620565</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Feature: can't separate the article from the speakers (ugh)">
+      <option name="closed" value="true" />
+      <created>1762915427045</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762915427045</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +136,7 @@
     <MESSAGE value="Feature: Initial Commit (Hopefully doesn't get caught in mumbo-jumbo (again))" />
     <MESSAGE value="Feature: Added flexbox into CSS, need to change the padding for better visibility" />
     <MESSAGE value="Feature: Initial Commit (making sure everything is okay)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: Initial Commit (making sure everything is okay)" />
+    <MESSAGE value="Feature: can't separate the article from the speakers (ugh)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: can't separate the article from the speakers (ugh)" />
   </component>
 </project>
