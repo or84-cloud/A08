@@ -1,130 +1,131 @@
 /* custom property */
 :root {
-	--accent-color: #800000;  /* could also be coded #800 */
-	--gradient-color: #f6bb73;
+    --accent-color: #800000;  /* could also be coded #800 */
+    --gradient-color: #f6bb73;
+    --mid-color: antiquewhite;
+    --light-color: #f6bb73 ;
+    --dark-color:  black;
 }
 
-/* reset */
+/* @all (reset) */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* default styles */
 body {
-	font-family: Arial, Helvetica, sans-serif;
-    font-size: calc(90% + 0.2vw);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(15px + .2vw);
+    width: min(80%, 1024px);
     line-height: 1.5;
-	width: 80%;
-    max-width: 1024px;
-	margin: auto;
-	border: 2px solid var(--accent-color);
-
-}
-a:hover, a:focus{
-	font-style: italic;
-	color: var(--accent-color);
+    margin: auto;
+    border: 2px solid var(--accent-color);
 }
 h1, h2, h3, p, ul {
     padding: .25em 0;
 }
-h1{
-	font-size: 150%;
+a:hover, a:focus{
+    font-style: italic;
+    color: var(--accent-color);
+}
+h1 {
+    font-size: 150%;
 }
 h2 {
-	font-size: 130%;
-	color: var(--accent-color);
+    font-size: 130%;
+    color: var(--accent-color);
 }
 h3 {
-	font-size: 105%;
+    font-size: 105%;
 }
 ul {
-	margin-left: 2em;
+    margin-left: 2em;
 }
 
 /* the styles for the header */
 header {
-    border-bottom: 2px solid var(--accent-color);
-	background-image: linear-gradient(
-	    30deg, var(--gradient-color) 0%, white 30%, white 65%, var(--gradient-color) 100%);
     line-height: 1.2;
-
+    border-bottom: 2px solid var(--accent-color);
+    background-image: linear-gradient(
+            30deg, var(--gradient-color) 0%, white 30%, white 65%, var(--gradient-color) 100%);
     & h2 {
         font-size: 175%;
         padding: .5em 0 0 0;
-	}
-
+    }
     & h3 {
         font-size: 130%;
         font-style: italic;
         padding-bottom: 1em;
-	}
+    }
     & img {
-        float: left ;
-        margin: 0.75em 1em;
-        width: 100%;
-        min-width: 40px;
-        max-width: 80px;
-
+        width: clamp(40px, 15%, 80px);
+        float: left;
+        margin: .75em 1em;
     }
 }
 
 /* the styles for the main content */
 main {
-    padding: 0 1em 1em;
     display: flex;
-
-    & section {
-        flex-basis: 75%;
-        padding: 1em 1em 1em 1em;
-
-        & img {
-            float: right;
-            width: clamp(100px, 100%, 250px);
-            margin: 0.75em 1em;
-        }
+    clear: left;
+    padding: 0 1em 1em;
+    & blockquote {
+        font-style: italic;
+        padding-left: 1em;
     }
-        & aside {
-            flex-basis: 25%;
-            padding: 1em 1em 1em 1em;
-
-            & img {
-                width: 100%;
-                min-width: 40px;
-                max-width: 75px;
-                border-radius: 10%;
-                border: 2px solid var(--accent-color);
-            }
-        }
-
-   &blockquote{
-       font-style: italic;
-       padding-left: 1em;
-   }
-
-    /* the styles for the footer */
-
-    footer {
-        background-color: var(--accent-color);
-
-        & p {
-            text-align: center;
-            color: white;
-            padding: 1em 0;
-        }
+    & h3 + img { /* speaker images */
+        width: clamp(40px, 50%, 75px);
+        border: 3px double var(--accent-color);
+        border-radius: 10px;
     }
+}
 
-    /* CSS class */
-
-    .large {
-        font-size: 125%;
+/* the styles for the section */
+section {
+    flex-basis: 75%;
+    padding-left: .5em;
+    & img {
+        width: clamp(100px, 50%, 250px);
+        float: right;
+        margin: 0 1em .25em;
     }
+}
 
-    article.featured {
-        border-top: 4px solid var(--accent-color);
-        border-bottom: 4px solid var(--accent-color);
+/* the styles for the aside */
+aside {
+    flex-basis: 25%;
+    padding-right: .5em;
+}
+
+/* the styles for the footer */
+footer {
+    background-color: var(--accent-color);
+    & p {
+        text-align: center;
+        color: white;
         padding: 1em 0;
-        margin: 1em 0;
     }
+}
+
+/* CSS class */
+.featured {
+    border-top: 2px solid var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding: .5em 0 1em;
+}
+.speaker {
+    & h1 {
+        color: var(--accent-color);
+    }
+    & h2 {
+        color: black;
+    }
+    & p {
+        padding: .5em 0;
+    }
+}
+.large {
+    font-size: 125%;
 }
